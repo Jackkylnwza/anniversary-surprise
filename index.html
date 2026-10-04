@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>จดหมายถึงคนพิเศษ 💌</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="card home-card">
+        <div class="envelope-scene">
+          <div class="envelope-large">
+            <div class="envelope-flap">
+            </div>
+            <div class="envelope-body">
+            </div>
+            <div class="letter-peek">💗</div>
+          </div>
+          <div class="sparkles">✦　♡　✦　♡　✦</div>
+        </div>
+        <h1>ถึงคนพิเศษของเค้า ❤️</h1>
+        <p class="soft hero-text">มีเรื่องราวหนึ่งที่เค้าอยากเล่าให้เธอฟัง...</p>
+        <p>เรื่องราวเล็ก ๆ ที่รวมความรู้สึก ความทรงจำ รอยยิ้ม และคำบางคำที่เค้าอาจไม่เคยพูดออกมาให้เธอฟังทั้งหมด</p>
+        <button class="btn big-btn" id="openEnvelope">💌 เปิดกล่องจดหมาย</button>
+        <div id="secretContent" class="hidden">
+          <div class="message-box">
+            <div class="title">💗 ข้อความถึงคนพิเศษของเค้า 💗</div>
+            <p>ถ้าเธอเปิดมาถึงตรงนี้ แปลว่าเธอกำลังจะได้เห็นสิ่งที่เค้าตั้งใจทำขึ้นมาให้โดยเฉพาะ</p>
+            <p>ทุกหน้าที่อยู่ข้างในไม่ได้มีไว้แค่ให้กดดู แต่มีเรื่องราวเล็ก ๆ ที่เค้าอยากเก็บไว้ให้เราได้ย้อนกลับมาอ่านและยิ้มด้วยกันอีกครั้ง</p>
+            <p class="center">
+              <b>ก่อนเข้าไปข้างใน ขอให้เธอลองใส่รหัสลับของเราก่อนนะ 🔐</b>
+            </p>
+          </div>
+          <div class="lock-box">
+            <h2>🔐 รหัสลับของเรา</h2>
+            <p>กรอกตัวเลข 6 หลัก แล้วประตูสู่เรื่องราวของเราจะเปิดออก</p>
+            <form id="codeForm">
+              <div class="code-inputs">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 1">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 2">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 3">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 4">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 5">
+                <input inputmode="numeric" maxlength="1" aria-label="เลขที่ 6">
+              </div>
+              <div id="codeStatus" class="message-status">
+              </div>
+              <button class="btn" type="submit">เปิดเรื่องราวของเรา ❤️</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
